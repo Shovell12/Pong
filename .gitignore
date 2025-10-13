@@ -1,0 +1,6 @@
+# Ejecutables
+*.exe
+*.o
+
+# DLLs de SFML  
+*.dll
