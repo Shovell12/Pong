@@ -1,6 +1,32 @@
 # Ejecutables
+pong
 *.exe
-*.o
+*.out
+*.app
 
-# DLLs de SFML  
-*.dll
+# Objetos de compilación
+*.o
+*.obj
+
+# Archivos del sistema
+.DS_Store
+*.swp
+*.swo
+Thumbs.db
+desktop.ini
+
+# Directorios de build
+build/
+bin/
+obj/
+Debug/
+Release/
+
+# Archivos de IDEs
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+
+# Logs
+*.log
