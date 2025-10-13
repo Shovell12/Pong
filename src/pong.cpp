@@ -19,7 +19,7 @@ int main(){
 
     Font fuente;
 
-    if(!fuente.openFromFile("fonts/DejaVuSans.ttf")){
+    if(!fuente.openFromFile("assets/DejaVuSans.ttf")){
         //si no encuentra la fuente
         cout<<"Error al cargar la fuente"<<endl;
         return -1;
