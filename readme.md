@@ -13,4 +13,4 @@ Un clásico juego Pong implementado en C++ con SFML 3.0.2
 
 ## 🛠 Compilación
 ```bash
-g++ -o pong.exe src/pong.cpp -lsfml-graphics-3 -lsfml-window-3 -lsfml-system-3
+g++ -o pong src/pong.cpp -lsfml-graphics -lsfml-window -lsfml-system
