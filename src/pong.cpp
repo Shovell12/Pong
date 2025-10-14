@@ -14,8 +14,8 @@ enum class GameState{
 
 GameState showMenu(RenderWindow& window, Font& font) {
     Text titleText(font, "PONG GAME", 60);
-    Text startText(font, "Presiona ESPACIO para jugar", 30);
-    Text exitText(font, "Presiona ESC para salir", 25);
+    Text startText(font, "Presiona ESPACIO para jugar", 24);
+    Text exitText(font, "Presiona ESC para salir", 20);
     
     // Configurar textos
     titleText.setFillColor(Color::White);
@@ -23,9 +23,9 @@ GameState showMenu(RenderWindow& window, Font& font) {
     exitText.setFillColor(Color::Cyan);
     
     // Posiciones fijas - sin usar bounds
-    titleText.setPosition(Vector2f(200.0f, 150.0f));
-    startText.setPosition(Vector2f(200.0f, 300.0f));
-    exitText.setPosition(Vector2f(250.0f, 400.0f));
+    titleText.setPosition(Vector2f(150.0f, 150.0f));
+    startText.setPosition(Vector2f(125.0f, 300.0f));
+    exitText.setPosition(Vector2f(215.0f, 400.0f));
     
     Clock blinkClock;
     bool showStartText = true;
@@ -87,14 +87,14 @@ int main(){
     //Sistema de texto
     Font fuente;
 
-    if(!fuente.openFromFile("assets/DejaVuSans.ttf")){
+    if(!fuente.openFromFile("assets/Pixeled.ttf")){
         //si no encuentra la fuente
         cout<<"Error al cargar la fuente"<<endl;
         return -1;
     }  
 
-    Text textoPuntos1(fuente,"0",50);
-    Text textoPuntos2(fuente,"0",50);
+    Text textoPuntos1(fuente,"0",40);
+    Text textoPuntos2(fuente,"0",40);
 
     //Texto player1
     textoPuntos1.setFillColor(Color::White);
