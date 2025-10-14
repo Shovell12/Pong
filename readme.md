@@ -6,6 +6,7 @@ Un clásico juego Pong implementado en C++ con SFML 3.0.2
 - Sistema de puntuación
 - Controles para dos jugadores
 - Física de colisiones
+- Menú y sistema de estados
 
 ## 🎯 Controles
 - **Jugador 1**: W (arriba), S (abajo)
