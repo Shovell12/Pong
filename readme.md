@@ -33,8 +33,6 @@ Un clásico juego Pong implementado en C++ con SFML 3.0.2 con características m
 ## 🛠 Compilación
 
 ```bash
-# Compilar con SFML 3.0.2
+# Compilar y ejecutar
 g++ -o pong src/pong.cpp -lsfml-graphics -lsfml-window -lsfml-system
-
-# Ejecutar
 ./pong
