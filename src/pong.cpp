@@ -161,7 +161,7 @@ int main(){
     //Variables de Puntuacion
     int puntosPlayer1 = 0;
     int puntosPlayer2 = 0;
-    const int PUNTOS_VICTORIA = 1;
+    const int PUNTOS_VICTORIA = 5;
 
     // Variable para almacenar el ganador
     int ganadorGlobal = 0;
